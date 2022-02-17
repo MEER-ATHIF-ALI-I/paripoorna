@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const url = 'https://paripoorna-task.herokuapp.com/users';
+const url = 'https://paripoorna-tasks.herokuapp.com/users';
 
 export const fetchBio = () => axios.get(url);
 
